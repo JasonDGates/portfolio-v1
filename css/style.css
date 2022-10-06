@@ -198,6 +198,7 @@ nav [class*="fa-"]:hover {
 }
 
 /* projects section */
+
 #projects {
   max-width: 1200px;
   margin: 0 auto;
@@ -279,6 +280,10 @@ footer ul {
   justify-content: center;
   gap: 3rem;
   font-size: 3rem;
+}
+
+footer a {
+  color: var(--aqua);
 }
 
 @media (min-width: 850px) {
