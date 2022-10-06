@@ -13,8 +13,8 @@
   --aqua: #86fbfb;
   --white: #f7f8fa;
   --font-size: 1.3rem;
-  --mono: "Oxygen mono", monospace;
-  --sans: Oxygen, sans-serif;
+  --mono: "Oxygen Mono", monospace;
+  --sans: "League Spartan", sans-serif;
 }
 
 
@@ -71,7 +71,7 @@ width: 100%;
 }
 
 .gradient {
-  background: linear-gradient(90deg, rgba(255, 23, 228, 1) 0%, rgba(134, 251, 251, 1) 100%);
+  background: linear-gradient(90deg, rgba(111,195,223,1) 50%, rgba(230,255,255,1) 100%);
   height: 2px;
 }
 
