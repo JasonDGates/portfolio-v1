@@ -2,7 +2,8 @@
 
 :root {
   --black: #0C141F;
-  --dkblue: #0d314b;
+  --grey: #262b31;
+  --dkblue: #07283f;
   --blue: #6FC3DF;
   --lightblue: #E6FFFF;
   --yellow: #FFE64D;
@@ -22,6 +23,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -37,7 +39,9 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--sans);
-  background-color: var(--black);
+  /* background-color: var(--black); */
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('https://i.imgur.com/rj0ic1u.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: var(--white);
   font-size: var(--font-size);
 }
@@ -66,12 +70,17 @@ width: 100%;
 .section-plum {
   background-color: var(--plum);
 }
+
 .section-blue {
   background-color: var(--dkblue);
 }
 
+.section-transparent {
+  background-color: none;
+}
+
 .gradient {
-  background: linear-gradient(90deg, rgba(111,195,223,1) 50%, rgba(230,255,255,1) 100%);
+  background: linear-gradient(90deg, rgba(111,195,223,1) 33%, rgba(230,255,255,1) 100%);
   height: 2px;
 }
 
@@ -180,6 +189,10 @@ nav [class*="fa-"]:hover {
   font-family: var(--mono);
 }
 
+.btn-disabled {
+  background-color: grey;
+}
+
 .button:hover {
   color: white;
 }
@@ -218,12 +231,13 @@ nav [class*="fa-"]:hover {
 #projects ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: .5rem 0 0 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
   gap: 1rem;
   font-size: 1rem;
+  color: var(--yellow)
 }
 
 #projects img {
@@ -233,6 +247,22 @@ nav [class*="fa-"]:hover {
   border-top: 1px solid var(--aqua);
   border-radius: 25px;
 }
+
+.proj-btns {
+  margin: 1rem 0 0 0;
+  display: flex;
+  justify-content: end;
+}
+
+.proj-btns span {
+  margin-left: 1rem;
+}
+
+.proj-btns .fa-square-github {
+  font-size: 210%;
+  color: var(--aqua);
+}
+
 /* footer section */
 
 footer {
