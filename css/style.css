@@ -282,7 +282,7 @@ footer ul {
   font-size: 3rem;
 }
 
-footer a {
+#footer a {
   color: var(--aqua);
 }
 
