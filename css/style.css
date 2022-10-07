@@ -323,6 +323,10 @@ footer ul {
   }
 }
 
+span [class*="fa-"] {
+  color: var(--aqua);
+}
+
 @media (min-width: 850px) {
   nav {
       max-width: 1200px;
