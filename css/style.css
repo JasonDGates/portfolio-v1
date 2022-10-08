@@ -347,11 +347,16 @@ span [class*="fa-"] {
   max-width: 1200px;
   margin: 0 auto;
   padding: 4rem 1rem;
+  font-family: var(--sans);
 }
 
 #about h2 {
   font-size: 2.5rem;
   margin-bottom: calc(2.5rem * 1.5);
+}
+
+.about-desc p {
+  line-height: 1.5rem;
 }
 
 .about-skills .top {
