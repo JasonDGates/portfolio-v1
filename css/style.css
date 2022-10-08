@@ -60,6 +60,7 @@ a:hover {
   color: var(--hotmag);
   text-decoration: none;
 }
+
 img {
 width: 100%;
 }
@@ -338,4 +339,36 @@ span [class*="fa-"] {
       text-align: left;
       margin-right: auto;
   }
+}
+
+/* About Me Section */
+
+#about {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+
+.about-skills .top {
+  display: flex;
+}
+
+.top ul {
+  font-family: var(--mono);
+  font-size: 1.5rem;
+  line-height: 2.03rem;
+  list-style-type: none;
+  margin: 0;
+}
+
+.top img {
+  margin: 0;
+  padding: 0;
+  max-width: 136px;
+  max-height: 156px;
 }
