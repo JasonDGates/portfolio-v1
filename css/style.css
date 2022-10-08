@@ -322,6 +322,15 @@ footer ul {
   #projects .reverse ul {
     justify-content: flex-start;
   }
+
+  #projects .reverse .proj-btns {
+    justify-content: flex-start;
+  }
+
+  #projects .reverse .proj-btns span {
+    margin-left: 0;
+    margin-right: 1rem;
+  }
 }
 
 span [class*="fa-"] {
